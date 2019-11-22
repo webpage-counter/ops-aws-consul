@@ -46,8 +46,3 @@ output "data_rendered" {
 output "instance_profile" {
   value = module.dc1.iam_instance_profile
 }
-
-output "key_pair" {
-  value = module.dc1.key_pair
-}
-
