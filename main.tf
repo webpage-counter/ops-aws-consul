@@ -12,7 +12,7 @@ data "terraform_remote_state" "nw" {
 
 module "dc1" {
   source = "app.terraform.io/webpage-counter/consul/aws"
-  version = "0.0.1"
+  version = ">= 0.0.1"
   instance_type     = var.instance_type
   region            = var.region
   dcname            = var.dcname["dc1"]
