@@ -25,24 +25,10 @@ output "ami" {
   value = module.dc1.ami
 }
 
-output "instance_type" {
-  value = module.dc1.instance_type
-}
-
-
 output "dcname" {
   value = module.dc1.dcname
 }
 
 output "IP_client" {
   value = module.dc1.IP_client
-}
-
-
-output "data_rendered" {
-  value = module.dc1.data_rendered
-}
-
-output "instance_profile" {
-  value = module.dc1.iam_instance_profile
 }
