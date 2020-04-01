@@ -32,3 +32,7 @@ output "dcname" {
 output "IP_client" {
   value = module.dc1.IP_client
 }
+  
+output "instance_profile" {
+  value = module.dc1.iam_instance_profile
+}
